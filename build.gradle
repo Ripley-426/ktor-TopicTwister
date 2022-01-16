@@ -2,6 +2,7 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version "$kotlin_version"
     id 'org.jetbrains.kotlin.plugin.serialization' version "$kotlin_version"
     id 'application'
+    id 'java'
 }
 
 
@@ -31,4 +32,12 @@ compileTestKotlin {
 
 application {
     mainClassName = "com.jetbrains.handson.httpapiApplicationKt"
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.jetbrains.handson.httpapi.Application'
+        )
+    }
 }
