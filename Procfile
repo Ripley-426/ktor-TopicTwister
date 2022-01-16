@@ -1,1 +1,1 @@
-web: java -jar build/libs/creating-http-api-ktor-1.0.jar --server.port=$PORT
+web: java -jar build/libs/topic-twister-1.0.jar --server.port=$PORT
