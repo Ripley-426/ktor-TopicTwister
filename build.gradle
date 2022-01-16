@@ -30,7 +30,7 @@ compileTestKotlin {
 }
 
 application {
-    mainClassName = 'com.jetbrains.handson.httpapiApplicationKt'
+    mainClassName = "com.jetbrains.handson.httpapiApplicationKt"
 }
 
 jar {
