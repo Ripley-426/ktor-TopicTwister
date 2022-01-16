@@ -36,7 +36,7 @@ application {
 jar {
     manifest {
         attributes(
-                //'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                'Class-Path': "com.jetbrains.handson.httpapi",
                 'Main-Class': "Application.kt"
         )
     }
