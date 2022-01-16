@@ -1,1 +1,1 @@
-web: java -jar build/libs/kotlin-api.jar --server.port=$PORT
+web: java -jar build/libs/http-api-ktor-1.0-SNAPSHOT.jar --server.port=$PORT
