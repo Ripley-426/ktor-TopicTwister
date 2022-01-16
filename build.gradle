@@ -32,3 +32,12 @@ compileTestKotlin {
 application {
     mainClassName = "com.jetbrains.handson.httpapiApplicationKt"
 }
+
+jar {
+    manifest {
+        attributes(
+                //'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                'Main-Class': "Application.kt"
+        )
+    }
+}
